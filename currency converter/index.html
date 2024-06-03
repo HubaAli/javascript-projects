@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="h-screen bg-purple-400 flex justify-center items-center">
+        <div class="bg-white p-40 rounded-lg text-center shadow-2xl">
+            <img src="icon2.webp" class="w-24 h-24 mx-auto rounded-full mb-10" alt="Your Image">
+            <h1 class=" font-bold text-3xl uppercase mt-6 text-black ">Currency Converter</h1>
+            <label for="amount" class=" font-bold display-block text-white ">Amount:</label>
+            <input type="number id" id="amount" value="100" class="w-full border-2 border-purple-400 p-4 rounded-lg mt-2 mb-7 text-2xl">
+            <div class="dropdowns flex justify-between items-center gap-4">
+                <select class="w-full   rounded-lg p-4 font-10 bg-purple-400 text-white font-bold cursor-pointer shadow-md" id="from-currency-select"></select>
+                <select class="w-full   rounded-lg p-4 font-10 bg-purple-400 text-white font-bold" id="to-currency-select"></select>
+            </div>
+            <button id="convert-button" class="   bg-purple-400 text-white font-bold px-40 py-4 rounded-lg mt-6 cursor-pointer  b">CONVERT</button>
+            <p id="result" class="text-center text-black font-bold bg-purple-300 m p-4 mt-6"></p>
+        </div>
+    </div>
+    <script src="api-key.js"></script>
+    <script src="currency-codes.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

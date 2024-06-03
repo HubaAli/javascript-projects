@@ -1,0 +1,16 @@
+select {
+    width: 100%;
+    padding: 0.6em;
+    font-size: 1em;
+    border-radius: 0.2em;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("arrow-down.png");
+    background-repeat: no-repeat;
+    background-position: right 15px top 50%, center;
+    background-size: 20px 20px;
+    background-color: #9873fe;
+    color: #ffffff;
+  }
+  /* relative before:absolute before:w-2/3 before:h-2/3 before:top-0 before:left-0 before:border-t before:border-l before:border-white before:border-solid after:absolute after:w-2/3 after:h-2/3 after:right-0 after:bottom-0 after:border-b after:border-r after:border-white after:border-solid hover:after:w-full hover:after:h-full hover:before:w-full hover:before:h-full before:duration-300 after:duration-300 */
